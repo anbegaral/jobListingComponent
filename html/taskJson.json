@@ -1,0 +1,28 @@
+{
+    "jobs": [
+        {
+            "id": 7,
+            "title": "Software engineer",
+            "employer": {
+                "name": "IBM"
+            },
+            "salary": "£45,000+"
+        },
+        {
+            "id": 12,
+            "title": "Web developer",
+            "employer": {
+                "name": "Lloyds Bank"
+            },
+            "salary": "£45,000+"
+        },
+        {
+            "id": 42,
+            "title": "Software tester",
+            "employer": {
+                "name": "4d Telecom"
+            },
+            "salary": "£24,000-£35,000"
+        }
+    ]
+}
