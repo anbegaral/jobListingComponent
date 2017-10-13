@@ -18,9 +18,12 @@
             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
     </head>
-    
+
     <body ng-controller="mainController">
+        <!-- Header -->
         <header>Available jobs</header>
+
+        <!-- Content -->
         <section id="content" class="container">
             <article ng-repeat="job in jobs" ng-class="{'uneven' : $index % 2 !== 0}"></div>
                 <div>

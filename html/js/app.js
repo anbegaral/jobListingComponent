@@ -31,7 +31,7 @@ jobListing.controller('mainController', function ($scope, $http) {
             then(function onSuccess(response) {
                 // reset the object
                 $scope.newJob = {};
-                $scope.job = response.data.job;
+                $scope.job = response.data;
             }).
             catch(function onError(response) {
                 $scope.msg = response.statusText;

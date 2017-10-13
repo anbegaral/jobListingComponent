@@ -67,6 +67,7 @@ html, body{
     font-weight: bold;    
   }
 
+  /* Media query for bigger devices */
   @media screen and (min-width: 768px){
     html, body{
         width: 75%;
